@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример логики на JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JavaScript Задачи</h1>
+
+    <div id="task1">
+        <h2>Задача 1: Покупка</h2>
+        <label for="price">Стоимость товара:</label>
+        <input type="text" id="price" placeholder="Введите стоимость товара">
+        <label for="clientMoney">Деньги клиента:</label>
+        <input type="text" id="clientMoney" placeholder="Введите сумму клиента">
+        <button onclick="processPurchase()">Проверить покупку</button>
+        <p id="result1"></p>
+    </div>
+
+    <div id="task2">
+        <h2>Задача 2: Проверка числа</h2>
+        <input type="text" id="numberInput" placeholder="Введите число">
+        <button onclick="checkNumber()">Проверить</button>
+        <p id="result2"></p>
+    </div>
+
+    <div id="task3">
+        <h2>Задача 3: Переписать условие с использованием ?</h2>
+        <p id="result3"></p>
+    </div>
+
+    <div id="task4">
+        <h2>Задача 4: Вход в систему</h2>
+        <button onclick="loginPrompt()">Войти</button>
+        <p id="result4"></p>
+    </div>
+
+    <script src="Js/main.js"></script>
+</body>
+</html>
